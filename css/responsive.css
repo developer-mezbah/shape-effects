@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1400px) {
+    .shape {
+        height: 300px;
+        width: 300px;
+    }
+    .banner-content h1 {
+        font-size: 65px;
+        line-height: 60px;
+    }
+    .banner-content h1:nth-child(2) {
+        text-align: center;
+        color: #5A4DFF;
+        transform: translateX(-100px);
+        line-height: 100px;
+    }
+    .bubble {
+        width: 100px;
+        height: 100px;
+        bottom: 2%;
+        right: 5%;
+    }
+    .bubble2 {
+        width: 100px;
+        height: 100px;
+        bottom: 2%;
+        right: 10%;
+    }
+    .bubble::before {
+        width: 15px;
+        height: 15px;
+    }
+    .bubble-content {
+        font-size: 16px;
+    }
+    .bio {
+        color: #fff;
+        width: 60%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .responsive{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .main{
+        display: none;
+    }
+  }
